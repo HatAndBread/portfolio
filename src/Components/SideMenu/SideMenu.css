@@ -1,0 +1,32 @@
+.side-menu-container {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background-color: green;
+}
+
+#me {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: aqua;
+  transition: 0.4s;
+}
+
+#me:hover {
+  transform: rotate(-20deg);
+  background-color: red;
+}
+
+.side-menu-list {
+  max-width: 350px;
+}
+
+@media only screen and (max-width: 800px) {
+  .side-menu-container {
+    background-color: pink;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+  }
+}
