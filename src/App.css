@@ -2,11 +2,13 @@
 
 .App {
   font-family: 'Poppins', sans-serif;
-  display: flex;
+  display: grid;
+  grid-template-columns: 30% auto;
 }
 
 @media only screen and (max-width: 800px) {
   .App {
+    display: flex;
     flex-direction: column;
   }
 }

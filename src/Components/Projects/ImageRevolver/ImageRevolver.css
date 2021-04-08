@@ -1,0 +1,28 @@
+.ImageRevolver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.revolver {
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 16px);
+}
+
+.screenshot {
+  border-radius: 4px;
+  transition: 1s;
+  width: 100%;
+}
+
+.right {
+  right: 0px;
+}
+
+.left {
+  left: 0px;
+}

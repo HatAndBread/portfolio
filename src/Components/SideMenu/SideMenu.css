@@ -22,6 +22,18 @@
   max-width: 350px;
 }
 
+.sns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns img {
+  transition: 0.4s;
+}
+.sns img:hover {
+  transform: rotate(20deg);
+}
+
 @media only screen and (max-width: 800px) {
   .side-menu-container {
     background-color: pink;

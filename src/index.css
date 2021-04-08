@@ -3,3 +3,12 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  color: slategray;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: red;
+}
