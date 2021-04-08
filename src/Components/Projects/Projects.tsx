@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
           <p>
             {' '}
             As a programmer of retro-styled 2d games, I always wanted a simple and easy to use pixel-art sprite sheet
-            generator. Since I never found one that that suited my needs, I decided to make it myself! Pixel Art
+            generator. Since I never found one that that suited my needs, I decided to make one myself! Pixel Art
             Animator allows users to easily make animations and save them as either animated gifs or png sprite sheets.
           </p>
         }
