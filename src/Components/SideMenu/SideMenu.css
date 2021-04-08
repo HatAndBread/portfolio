@@ -12,8 +12,8 @@
 }
 
 #me {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-color: aqua;
   transition: 0.4s;
@@ -31,6 +31,10 @@
 .sns {
   display: flex;
   justify-content: space-between;
+}
+
+.sns-box {
+  width: 100%;
 }
 
 .sns img {

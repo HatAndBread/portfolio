@@ -32,7 +32,10 @@ const SideMenu: React.FC = () => {
         </div>
         <h3>Contact</h3>
         <div className="sns-box">
-          <div className="side-menu-text" style={{ marginBottom: '60px' }}>
+          <div
+            className="side-menu-text"
+            style={{ marginBottom: '60px', display: 'flex', justifyContent: 'space-between' }}
+          >
             <a href="https://www.linkedin.com/in/joshua-hume-0259691ab/">
               <img src={linkedIn} alt="linked" />
             </a>

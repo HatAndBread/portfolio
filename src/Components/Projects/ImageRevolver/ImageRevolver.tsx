@@ -30,8 +30,12 @@ const ImageRevolver: React.FC<Props> = ({ imageSources }) => {
           hidden={currentImageNumber === index ? false : true}
         />
       ))}
-      <img src={nextLeft} alt="←" onClick={handleClickLeft} className="revolver left" />
-      <img src={nextRight} alt="→" onClick={handleClickRight} className="revolver right" />
+      {imageSources.length > 1 && (
+        <div>
+          <img src={nextLeft} alt="←" onClick={handleClickLeft} className="revolver left" />
+          <img src={nextRight} alt="→" onClick={handleClickRight} className="revolver right" />
+        </div>
+      )}
       <div className="shader" />
     </div>
   );

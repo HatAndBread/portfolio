@@ -13,3 +13,11 @@ a {
 a:hover {
   color: red;
 }
+
+code {
+  background-color: black;
+  color: green;
+  white-space: nowrap;
+  padding: 8px;
+  border-radius: 6px;
+}
