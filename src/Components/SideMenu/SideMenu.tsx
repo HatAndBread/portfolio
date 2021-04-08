@@ -36,10 +36,10 @@ const SideMenu: React.FC = () => {
             className="side-menu-text"
             style={{ marginBottom: '60px', display: 'flex', justifyContent: 'space-between' }}
           >
-            <a href="https://www.linkedin.com/in/joshua-hume-0259691ab/">
+            <a href="https://www.linkedin.com/in/joshua-hume-0259691ab/" target="_blank" rel="noreferrer">
               <img src={linkedIn} alt="linked" />
             </a>
-            <a href="https://github.com/HatAndBread">
+            <a href="https://github.com/HatAndBread" target="_blank" rel="noreferrer">
               <img src={gitHub} alt="github" />
             </a>
             <a href="mailto: valencelectron@hotmail.com">

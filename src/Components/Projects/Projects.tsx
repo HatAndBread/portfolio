@@ -43,7 +43,10 @@ const Projects: React.FC = () => {
             {' '}
             Toilet Accessibility Map allows users to locate and review wheelchair / baby accessible public restrooms in
             Tokyo. Data was scraped from the Tokyo Metropolitan government's amazing{' '}
-            <a href="https://portal.data.metro.tokyo.lg.jp/">Open Data Catalog Site</a>.
+            <a href="https://portal.data.metro.tokyo.lg.jp/" target="_blank" rel="noreferrer">
+              Open Data Catalog Site
+            </a>
+            .
           </p>
         }
         imageSources={[toiletImage1, toiletImage2]}
@@ -133,9 +136,8 @@ const Projects: React.FC = () => {
         title={'Mumbo Jumbo'}
         description={
           <p>
-            Vaguely inspired by surrealist writing techniques, <a href="https://mumbojumbo.glitch.me/">Mumbo Jumbo</a>{' '}
-            is a game I made for my own high school students to stimulate their imaginations and practice creative
-            writing. Here's how it works: <br />
+            Vaguely inspired by surrealist writing techniques, Mumbo Jumbo is a game I made for my own high school
+            students to stimulate their imaginations and practice creative writing. Here's how it works: <br />
             ⭐️Students start writing a story.
             <br />
             ⭐️The teacher shuffles the students' stories.

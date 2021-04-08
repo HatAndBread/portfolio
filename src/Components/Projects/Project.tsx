@@ -20,11 +20,11 @@ const Project: React.FC<Props> = ({ title, description, imageSources, sourceCode
           {description}
           <p>Tech Stack: {tech}</p>
           {site && (
-            <a href={site} className="link-btn">
+            <a href={site} className="link-btn" target="_blank" rel="noreferrer">
               View Site
             </a>
           )}
-          <a href={sourceCode} className="link-btn">
+          <a href={sourceCode} className="link-btn" target="_blank" rel="noreferrer">
             Source Code
           </a>
         </div>

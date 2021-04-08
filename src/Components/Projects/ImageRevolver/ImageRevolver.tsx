@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import nextRight from '../../../Assets/next-right.png';
 import nextLeft from '../../../Assets/next-left.png';
 import './ImageRevolver.css';
@@ -27,6 +27,7 @@ const ImageRevolver: React.FC<Props> = ({ imageSources }) => {
           alt="screenshot"
           key={index}
           className="screenshot"
+          loading="lazy"
           hidden={currentImageNumber === index ? false : true}
         />
       ))}
