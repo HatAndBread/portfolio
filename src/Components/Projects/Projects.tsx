@@ -16,11 +16,32 @@ import mumbo from "../../Assets/mumbo1.png";
 import mumbo2 from "../../Assets/mumbo2.png";
 import cook from "../../Assets/cook1.png";
 import cook2 from "../../Assets/cook2.png";
+import map1 from "../../Assets/map1.png";
+import map2 from "../../Assets/map2.png";
+import map3 from "../../Assets/map3.png";
 
 const Projects: React.FC = () => {
   return (
     <div className='projects-container'>
       <h2>Projects</h2>
+      <Project
+        title={"Japan Adventure Maps"}
+        description={
+          <p>
+            {" "}
+            My passion project. Japan Adventure Maps allows users to design
+            hiking and cycling routes using detailed trail information
+            supplied by Open Street Maps. There are too many features to list,
+            but here are some of my favorites: export routes to your gps device, 
+            find routes by location, heat maps, 3d navigation, etc etc. Try it for yourself
+            and see what it can do.
+          </p>
+        }
+        imageSources={[map1, map2, map3]}
+        sourceCode={"https://github.com/HatAndBread/japan-adventure-maps"}
+        site='https://japan-adventure-maps.com/'
+        tech='React ⭐️ Ruby On Rails ⭐️ MapBox GL ⭐️ TypeScript'
+      />
       <Project
         title={"Pixel Art Animator"}
         description={
@@ -94,7 +115,7 @@ const Projects: React.FC = () => {
         imageSources={[kanji, kanjiTwo]}
         sourceCode={"https://github.com/HatAndBread/kanjikakikikai"}
         site='https://kanjikakikikai.glitch.me/'
-        tech='Vanilla JS 🍦 Express ⭐️ NEDB (Mongo clone) ⭐️ P5 JS'
+        tech='Vanilla JS 🍦 Express ⭐️ NEDB (Mongo clone) ⭐️ P5 JSF'
       />
       <Project
         title={"S2PD - A JavaScript Game Library"}

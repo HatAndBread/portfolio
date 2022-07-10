@@ -14,15 +14,15 @@ const SideMenu: React.FC = () => {
         <p className="side-menu-text">
           Hello. My name is Joshua and I am a Tokyo-based <span style={{ textDecoration: 'line-through' }}>nerd</span>{' '}
           computer programmer. I like making things, breaking things, and putting them back together again. Please have
-          a look through my projects.
+          a look through my projects. I'm currently breaking things for a living as a Rails / Vue developer at <a href="https://www.baremetrics.com">Baremetrics</a>
         </p>
         <h3>Programming</h3>
         <div className="side-menu-text side-menu-list">
-          JavaScript ⭐️ TypeScript ⭐️ Ruby ⭐️ Rails ⭐️ Node ⭐ Express ⭐️React ⭐️ SQL ⭐️ Web Audio ⭐️ Phaser
+          JavaScript ⭐️ TypeScript ⭐️ Ruby ⭐️ Vue ⭐️ Rails ⭐️ Node ⭐ Express ⭐️React ⭐️ SQL ⭐️ Web Audio ⭐️ Phaser
         </div>
         <h3>Cycling‍</h3>
         <div className="side-menu-text">
-          Unbeknownst to many I am an adept bicycle mechanic, restorer of vintage bicycles, explorer of back roads, and
+          I am an adept bicycle mechanic, restorer of vintage bicycles, explorer of back roads, and
           maker of maps.
         </div>
         <h3>Music</h3>
