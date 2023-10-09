@@ -18,7 +18,7 @@ const SideMenu: React.FC = () => {
         </p>
         <h3>Programming</h3>
         <div className="side-menu-text side-menu-list">
-          JavaScript ⭐️ TypeScript ⭐️ Ruby ⭐️ Vue ⭐️ Rails ⭐️ Node ⭐ Express ⭐️React ⭐️ SQL ⭐️ Web Audio ⭐️ Phaser
+          JavaScript ⭐️ TypeScript ⭐️ Ruby ⭐️ Vue ⭐️ Rails ⭐️ Node ⭐ Svelte ⭐️ React ⭐️ SQL ⭐️ Web Audio ⭐️ Phaser
         </div>
         <h3>Cycling‍</h3>
         <div className="side-menu-text">
